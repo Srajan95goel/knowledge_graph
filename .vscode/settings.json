@@ -1,0 +1,7 @@
+{
+    // --- Copilot Settings ---
+    "chat.agent.autoApprove": true,
+    "chat.tools.autoApprove": true,
+    "github.copilot.chat.runCommand.enabled": true,
+    "chat.editing.autoApplyDelay": 0
+}
