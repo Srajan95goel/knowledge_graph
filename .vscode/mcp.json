@@ -1,0 +1,29 @@
+{
+    "servers": {
+        "knowledge-graph": {
+            "type": "stdio",
+            "command": "python",
+            "args": [
+                "server.py"
+            ],
+            "autoApprove": [
+                "get_architecture",
+                "search_nodes",
+                "query_node",
+                "get_domain_subgraph",
+                "get_fixture_chain",
+                "find_impact",
+                "find_dependencies",
+                "find_path",
+                "get_change_recipe",
+                "get_graph_stats",
+                "get_source_snippet",
+                "get_cross_layer_trace",
+                "get_change_context",
+                "get_layer_interfaces",
+                "get_clarification_checklist",
+                "validate_task_context"
+            ]
+        }
+    }
+}
